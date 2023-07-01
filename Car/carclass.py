@@ -4,8 +4,23 @@ class Car:
         self.__make = make
         self.__speed = speed
     def accelerate(self):
-        self.__speed += 5
+        if self.__speed < 300:
+            self.__speed += 5
+            return True
+        else:
+            print("\033[1;31mThe car is overheating!\033[0m")
+            self.__speed = 0
+            return False
     def brake(self):
-        self.__speed -= 5
+        if self.__speed > 0:
+            self.__speed -= 5
+            return True
+        else:
+            print("\033[1;32mThe car has already stopped.\033[1;31m")
+            return False
     def get_speed(self):
-        print(self.__speed)
+        return self.__speed
+    def get_year_model(self):
+        return self.__year_model
+    def get_make(self):
+        return self.__make
