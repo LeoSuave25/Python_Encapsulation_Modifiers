@@ -10,3 +10,31 @@ class Fan:
         self.__power = power
         self.__radius = float(radius)
         self.__color = color
+
+    def get_speed(self):
+        return self.__speed
+    
+    def set_speed(self, speed):
+        self.__speed = speed
+
+    def get_radius(self):
+        return self.__radius
+
+    def set_radius(self, radius):
+        self.__radius = radius
+
+    def get_color(self):
+        return self.__color
+
+    def set_color(self, color):
+        self.__color = color
+
+    def get_power(self):
+        if self.__power == True:
+            status = "On"
+        else:
+            status = "Off"
+        return status
+
+    def set_power(self, power):
+        self.__power = power
