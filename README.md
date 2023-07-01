@@ -28,5 +28,8 @@ In the Fan program, you can interact with different attributes of a fan, includi
 ## 🔄 Retry Function 🔄
 
 After interacting with a program, you can choose whether to enter another set of information for that program. If you choose to do so, the program will prompt you for the information again.
+## 📷 DEMO 📷
+
+https://github.com/LeoSuave25/Python_Encapsulation_Modifiers/assets/129582854/140a965c-1257-49cc-b53b-fad245badcbe
 
 ## 🎉 Enjoy using the Main Interface! 🎉
